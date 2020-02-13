@@ -7,5 +7,5 @@ DROP TABLE IF EXISTS burgers;
 CREATE TABLE role(
 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 burger_name VARCHAR(30) NOT NULL,
-devoured BOLEAN NOT NULL default false
+devoured BOOLEAN NOT NULL default false
 );

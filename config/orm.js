@@ -10,4 +10,8 @@ function updateOne() {
 
 };
 
-module.exports = ormMethod;
+module.exports (
+    selectAll(),
+    insertOne(),
+    updateOne(),
+) = ormMethod;
