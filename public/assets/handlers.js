@@ -3,12 +3,11 @@ $(document).ready(function() {
   $("#burgerform").on("submit", function(event) {
     console.log($("#newBurger").val());
     event.preventDefault();
-    event.stopPropagation();
     const newBurger = {
       burger_name: $("#newBurger")
         .val()
         .trim(),
-      devoured: false
+      devoured: 0
     };
     $.ajax("/api/burgers", { type: "POST", data: newBurger }).then(function() {
       $("#newBurger").val("");
