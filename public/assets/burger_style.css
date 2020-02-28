@@ -1,0 +1,88 @@
+body {
+    background-color: #2E1F27;
+}
+
+#addBurgerContainer {
+    position:relative;
+    width:90%;
+}
+
+input.newBurger {
+    position: center;
+    text-align: center;
+    height: 50px;
+    width: 80%;
+}
+
+.jumbotron{
+    background-color: #F4C95D;
+    text-align:center;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    font-size: 30px;
+}
+
+img {
+    justify-content: center;
+}
+
+h1 {
+    font-size: 80px;
+    color: #2E1F27;
+    text-align: center;
+}
+
+h2 {
+    color: #2E1F27;
+    padding-left: 20px;
+}
+
+#devoured {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    background-color: #DD7230;
+}
+
+#notDevoured {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+    background-color: #DD7230;
+}
+
+#addBurger {
+    background-color: #E7E393;
+    text-align:center;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#changedevoured {
+    background-color: #2E1F27;
+}
+
+#addBurger {
+    padding-top: 20px;
+}
+
+#makeDaBurger {
+    margin-top: 20px;
+    background-color: #2E1F27;
+}
+
+.footer {
+    background-color: #F4C95D;
+    justify-content: center;
+    height: 120px;
+}
+
+#lilnote {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
