@@ -1,12 +1,15 @@
 <li>
 	{{#unless devoured}}
 	{{burger_name}}
-	<button type="button" class="btn btn-secondary btn-lg" id="changedevoured" data-id="{{id}}" data-devoured="{{devoured}}">
+	<button type="button" class="btn btn-secondary btn-lg changedevoured" data-id="{{id}}"
+		data-devoured="{{devoured}}">
 		Devour it!
-	</button>{{/unless}}
+	</button>
+	{{/unless}}
 
 	{{#if devoured}}
-	<button type="button" class="btn btn-lg btn-secondary" id="changedevoured" data-id="{{id}}" data-devoured="{{devoured}}" disabled>Devoured</button>
-	{{burger_name}}
-	{{/if}}
+    <button type="button" class="btn btn-lg btn-secondary changedevoured" data-id="{{id}}"
+        data-devoured="{{devoured}}" disabled>Devoured</button>
+    {{burger_name}}
+    {{/if}}
 </li>

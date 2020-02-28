@@ -15,7 +15,7 @@ $(document).ready(function() {
     });
   });
 
-  $("#changedevoured").on("click", function(event) {
+  $(".changedevoured").on("click", function(event) {
     const id = $(this).data("id");
     $.ajax("/api/burgers/" + id, { type: "PUT" }).then(function() {
       location.reload();
